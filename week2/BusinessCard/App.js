@@ -25,7 +25,7 @@ export default function App() {
           >github.com/Lee-Bennett37/CSCI343</Text>
         </View>
       </SafeAreaView>
-      
+       
     </>
   );
 }
