@@ -8,7 +8,7 @@ import * as Font from "expo-font";
 
 import Colors from "./constants/colors.js";
 import HomeScreen from './screens/HomeScreen.js';
-import OrderReviewScreen from './screens/OrderReviewScreen.js';
+import ServicesReviewScreen from './screens/ServicesReviewScreen.js';
 
 //Keeps splashscreen visible while loading
 SplashScreen.preventAutoHideAsync();
@@ -136,7 +136,7 @@ let screen = (
 
 if (currentScreen === "review") {
   screen = (
-    <OrderReviewScreen
+    <ServicesReviewScreen
     repairTime={repairTimeRadioButtons[repairTimeId].value}
     services={services}
     newsletter={newsletter}

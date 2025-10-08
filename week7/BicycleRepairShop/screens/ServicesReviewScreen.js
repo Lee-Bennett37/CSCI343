@@ -8,7 +8,7 @@ import NavButton from "../components/NavButton";
 
 
 
-export default function OrderReviewScreen(props){
+export default function ServicesReviewScreen(props){
     const insets = useSafeAreaInsets();
 
     return(
@@ -57,10 +57,10 @@ export default function OrderReviewScreen(props){
                     
                     <Text style={styles.services}>Additional Options:</Text>
                     <Text style={styles.subServices}>
-                        {props.newsletter ? "Toasted" : ""}
+                        {props.newsletter ? "Newsletter" : ""}
                     </Text>
                     <Text style={styles.subServices}>
-                        {props.rentalMembership ? "Double Meat" : ""}
+                        {props.rentalMembership ? "Rental Membership" : ""}
                     </Text>
 
                     <View style={styles.subTitleContainer}>
