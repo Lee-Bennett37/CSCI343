@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "CampsiteReservation",
+    "slug": "CampsiteReservation",
+    "version": "1.0.0",
+    "orientation": "auto",
+    "icon": "./assets/images/camping.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/camping.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/camping.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/images/camping.png"
+    }
+  }
+}

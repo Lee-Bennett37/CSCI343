@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "HotelReservation",
+    "slug": "HotelReservation",
+    "version": "1.0.0",
+    "orientation": "auto",
+    "icon": "./assets//images/italy-splash.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/italy-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/italy-splash.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/images/italy-splash.png"
+    }
+  }
+}
